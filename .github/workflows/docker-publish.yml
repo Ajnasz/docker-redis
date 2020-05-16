@@ -23,7 +23,7 @@ jobs:
       uses: docker/build-push-action@v1.1.0
       with:
         username: ajnasz
-        registry: ajnasz/redis
+        repository: ajnasz/redis
         password: ${{ secrets.DOCKER_TOKEN }}
         tag_with_ref: true
         tag_with_sha: true
