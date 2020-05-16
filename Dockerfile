@@ -1,4 +1,4 @@
-FROM redis:6
+FROM redis:6.0.2
 
 MAINTAINER Lajos Koszti <ajnasz@ajnasz.hu>
 
